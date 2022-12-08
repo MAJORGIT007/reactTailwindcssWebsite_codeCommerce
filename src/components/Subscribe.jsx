@@ -13,8 +13,8 @@ const Subscribe = () => {
         <button>Sign Up</button>
       </div>
       <div className="flex items-center justify-center py-2">
-        <input className="mr-2" type="checkbox" />
-        <p>Yes, I agree to receive email communications from DeFi.</p>
+        <input className="mr-2" type="checkbox" id="subscribe" />
+        <label htmlFor="subscribe">Yes, I agree to receive email communications from DeFi.</label>
       </div>
     </div>
   );
